@@ -58,6 +58,21 @@ a {
      transition: all .3s ease-in-out;
 }
 
+.btn {
+
+     background-color: #8cbc00;
+     display: block;
+     color: #fff;
+     text-transform: uppercase;
+     font-weight: 900;
+     padding: 1rem;
+     transition: background-color .3s ease-out;
+     text-align: center;
+     border: none;
+ 
+ }
+
+
 h1,
 h2,
 h3,

@@ -58,19 +58,7 @@ a {
      transition: all .3s ease-in-out;
 }
 
-.btn {
 
-     background-color: #8cbc00;
-     display: block;
-     color: #fff;
-     text-transform: uppercase;
-     font-weight: 900;
-     padding: 1rem;
-     transition: background-color .3s ease-out;
-     text-align: center;
-     border: none;
- 
- }
 
 
 h1,
@@ -1109,3 +1097,44 @@ ul.social_icon li a:hover {
 
 /** end laptop **/
 
+
+/* mapa */
+
+.mapa{
+     display: flex;
+     place-content: center center;
+     
+}
+
+.conteinermap{
+     width:80%;
+     text-align: center;
+}
+
+.conteinermap h2{
+     font-family: 'Poppins', sans-serif;
+     font-size:40px;
+     color:#38c8a8;
+     font-weight:900;
+     
+}
+
+.conteinermap h3{
+     font-family: 'Dosis', sans-serif;
+     font-size:30px;
+     text-transform: uppercase;
+     color: #0808ff;
+
+}
+
+.conteinermap path{
+     fill:#38c8a8;
+     stroke:#ccc8c8;
+     stroke-width: 2px;
+    
+     
+}
+
+.mapa :hover{
+     fill:#8cbc00;
+}

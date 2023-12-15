@@ -797,14 +797,14 @@ ul.btn li:last-child {
 /** contact section **/
 
 .contact {
-     background: url(../images/contact_g.jpg);
+     background: url(../images/contact_g.jpg); 
      background-repeat: no-repeat;
      background-size: 100% 100%;
      padding: 90px 0;
 }
 
 .contact .titlepage h2 {
-     color: #fff;
+     color: #0808ff
      border-bottom: #fff solid 1px;
 }
 
